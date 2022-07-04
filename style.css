@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    max-width: 1300px;
+    width: 100%;
+    align-items: center;
+}
+.body{
+    border: 2px solid yellow;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+.title img{
+    width: 50%;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+    height: 400px;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 35vh;
+    border: 2px solid green;
+}
+.login legend {
+    align-self: center;
+}
+.login input{
+    background-color: rgb(238, 229, 229);
+    border-style: hidden;
+    width: 90%;
+    height: 40px;
+}
+
+.social-media{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.social-media li{
+    list-style: none;
+    width: 50%;    
+}
+.social-media a{
+    width: 60%;
+    border: 2px solid gray;
+    display: flex;
+    justify-content: center;
+}
+.social-media img{
+    width: 30%;
+}
+.facebook{
+    background-color: blue;
+}
+.google{
+    background-color: red;
+}
+.apple{
+    background-color: black;
+}
+.sessao{
+    display: flex;
+    border: 2px solid blue;
+    flex-direction: column;
+    align-items: center;
+}
+.sessao p{
+    font-weight: bold;
+    cursor: pointer;
+    padding-top: 0.5vh;
+    opacity: 0.5;
+}
+.manter-login{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+}
+.manter-login input{
+    width: 1vw;
+}
+.manter-login label{
+    font-weight: bold;
+}
+button{
+    text-align: center;
+    align-self: center;
+    background-color: #FF002E36;
+    border-style: hidden;
+    border-radius: 5px;
+    width: 2vw;
+    height: 4vh;
+}
+button img{
+    box-sizing: border-box;
+    cursor: pointer;
+    width: 100%;
+    justify-content: center;
+}
+.img-lol{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* .ativo{
+    display: initial;
+}
+.fundo{
+    background-color: greenyellow;
+} */
+
+@media(max-width: 1080px){
+    .card{
+        height: 80%;
+    }
+    .sessao p{
+        font-size: 0.5rem;
+    }
+    .manter-login input{
+        width: 2vw;
+    }
+}
+@media(max-width:980px){
+    .body{
+        flex-direction: column;
+    }
+    .title{
+        padding-bottom: 2vh;
+    }
+    .card{
+        width: 50%;
+    }
+    .sessao{
+        padding: 2vh 0;
+    }
+}
+@media(max-width:715px){
+    .card{
+        width: 70%;
+    }
+}
+@media(max-width:415px){
+    .card{
+        width: 80%;
+    }
+    .manter-login input{
+        width: 4vw;
+    }
+}
