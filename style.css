@@ -105,7 +105,7 @@ button{
 }
 button img{
     box-sizing: border-box;
-    cursor: pointer;
+    /* cursor: pointer; */
     width: 100%;
     justify-content: center;
 }
@@ -117,6 +117,7 @@ button img{
 }
 .ativo{
     background-color: red;
+    cursor: pointer;
 }
 @media(max-width: 1080px){
     .card{
