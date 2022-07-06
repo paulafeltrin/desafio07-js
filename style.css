@@ -11,7 +11,6 @@ body{
     align-items: center;
 }
 .body{
-    border: 2px solid yellow;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -36,7 +35,6 @@ body{
     flex-direction: column;
     justify-content: space-around;
     height: 35vh;
-    border: 2px solid green;
 }
 .login legend {
     align-self: center;
@@ -47,7 +45,6 @@ body{
     width: 90%;
     height: 40px;
 }
-
 .social-media{
     width: 100%;
     display: flex;
@@ -59,7 +56,6 @@ body{
 }
 .social-media a{
     width: 60%;
-    border: 2px solid gray;
     display: flex;
     justify-content: center;
 }
@@ -77,7 +73,6 @@ body{
 }
 .sessao{
     display: flex;
-    border: 2px solid blue;
     flex-direction: column;
     align-items: center;
 }
@@ -120,15 +115,9 @@ button img{
     justify-content: center;
     align-items: center;
 }
-
-
-/* .ativo{
-    display: initial;
+.ativo{
+    background-color: red;
 }
-.fundo{
-    background-color: greenyellow;
-} */
-
 @media(max-width: 1080px){
     .card{
         height: 80%;
@@ -153,6 +142,9 @@ button img{
     .sessao{
         padding: 2vh 0;
     }
+    button{
+        width: 4vw;
+    }
 }
 @media(max-width:715px){
     .card{
@@ -165,5 +157,8 @@ button img{
     }
     .manter-login input{
         width: 4vw;
+    }
+    button{
+        width: 6vw;
     }
 }
