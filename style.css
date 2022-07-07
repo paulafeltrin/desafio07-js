@@ -41,9 +41,12 @@ body{
 }
 .login input{
     background-color: rgb(238, 229, 229);
-    border-style: hidden;
+    border-color: transparent;
     width: 90%;
     height: 40px;
+}
+.login login:hover{
+    border-color: transparent;
 }
 .social-media{
     width: 100%;
