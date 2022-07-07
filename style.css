@@ -45,9 +45,6 @@ body{
     width: 90%;
     height: 40px;
 }
-.login login:hover{
-    border-color: transparent;
-}
 .social-media{
     width: 100%;
     display: flex;

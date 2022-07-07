@@ -4,8 +4,9 @@ const botao = document.querySelector("button");
 function logar(){
     if(input1.value && input2.value.length >= 8){
         botao.removeAttribute("disabled");
-        botao.classList.toggle("ativo");
+        botao.classList.add("ativo");
     }else{
+        botao.classList.remove("ativo")
         botao.setAttribute("disabled", "disabled");
     }
 }
