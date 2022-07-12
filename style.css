@@ -37,8 +37,8 @@ body{
     justify-content: space-around;
     height: 35vh;
 }
-.login legend {
-    align-self: center;
+legend{
+    margin: 0 auto;
 }
 .login input{
     background-color: rgb(238, 229, 229);
@@ -90,13 +90,13 @@ input:focus{
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 90%;
+    width: 100%;
 }
 .manter-login:hover{
     text-decoration: underline;
 }
 .manter-login input{
-    width: 1vw;
+    width: 12px;
 }
 .manter-login label{
     font-weight: bold;
@@ -107,7 +107,7 @@ button{
     background-color: #FF002E36;
     border-style: hidden;
     border-radius: 5px;
-    width: 2vw;
+    width: 20px;
     height: 4vh;
 }
 button img{
@@ -151,27 +151,18 @@ button img{
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, 25%);
+        transform: translate(-50%, 10%);
         background-color: white;
         opacity: 0.9;
-        width: 30vw;
+        width: 250px;
+    }
+    .title{
+        padding-top: 20px;
+    }
+    form{
+        padding-left: 20px;
     }
     .img-lol{
         display: none;
-    }
-}
-@media(max-width: 813px){
-    .card{
-        width: 50vw;
-    }
-}
-@media(max-width: 533px){
-    .card{
-        width: 65vw;
-    }
-}
-@media(max-width: 410px){
-    .card{
-        width: 75vw;
     }
 }
